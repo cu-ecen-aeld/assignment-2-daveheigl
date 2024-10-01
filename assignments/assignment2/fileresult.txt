@@ -1,0 +1,6 @@
+dave@p5820:~/coursera/assignment-1-daveheigl/finder-app$ make clean
+rm -f writer
+dave@p5820:~/coursera/assignment-1-daveheigl/finder-app$ make all
+aarch64-none-linux-gnu-gcc -o writer writer.c
+dave@p5820:~/coursera/assignment-1-daveheigl/finder-app$ file writer
+writer: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, with debug_info, not stripped
